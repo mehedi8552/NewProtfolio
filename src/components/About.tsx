@@ -29,12 +29,12 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <div className="relative">
-              <div className="w-96 h-96 mx-auto bg-gradient-to-br from-purple-600 to-pink-600 rounded-full p-1">
+              <div className=" w-fit h-fit xl:w-96 xl:h-96 mx-auto bg-gradient-to-br from-purple-600 to-pink-600 rounded-full p-1">
                 <div className="w-full h-full bg-slate-900 rounded-full flex items-center justify-center">
                   <img
                     src={Image}
                     alt="Profile"
-                    className="w-96 h-96 rounded-full object-cover"
+                    className=" w-fit h-fit xl:w-96 xl:h-96  rounded-full"
                   />
                 </div>
               </div>
